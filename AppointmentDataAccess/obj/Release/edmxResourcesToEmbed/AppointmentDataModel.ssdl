@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="appointmentsModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="appointment">
+    <Key>
+      <PropertyRef Name="appointmentId" />
+    </Key>
+    <Property Name="appointmentId" Type="int" Nullable="false" />
+    <Property Name="appointmentStartDate" Type="datetime" Nullable="false" />
+    <Property Name="appointmentEndDate" Type="datetime" Nullable="false" />
+    <Property Name="memo" Type="varchar" MaxLength="150" Nullable="false" />
+    <Property Name="cancelled" Type="bit" Nullable="false" />
+    <Property Name="confirmed" Type="bit" Nullable="false" />
+    <Property Name="completed" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="users">
+    <Key>
+      <PropertyRef Name="userId" />
+    </Key>
+    <Property Name="userId" Type="int" Nullable="false" />
+    <Property Name="fname" Type="varchar" MaxLength="150" Nullable="false" />
+    <Property Name="lname" Type="varchar" MaxLength="150" Nullable="false" />
+    <Property Name="username" Type="varchar" MaxLength="150" Nullable="false" />
+    <Property Name="email" Type="varchar" MaxLength="150" Nullable="false" />
+    <Property Name="password" Type="varchar" MaxLength="150" Nullable="false" />
+    <Property Name="token" Type="varchar(max)" Nullable="false" />
+    <Property Name="token_expire" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="appointmentsModelStoreContainer">
+    <EntitySet Name="appointment" EntityType="Self.appointment" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="users" EntityType="Self.users" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

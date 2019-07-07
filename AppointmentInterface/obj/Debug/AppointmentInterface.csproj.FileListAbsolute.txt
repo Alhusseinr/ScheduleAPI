@@ -105,3 +105,8 @@ C:\Git\C#\ScheduleAPI\AppointmentInterface\bin\Dapper.xml
 C:\Git\C#\ScheduleAPI\AppointmentInterface\bin\System.Web.Http.xml
 C:\Git\C#\ScheduleAPI\AppointmentInterface\bin\System.Net.Http.Formatting.xml
 C:\Git\C#\ScheduleAPI\AppointmentInterface\bin\System.Web.Http.WebHost.xml
+C:\Git\C#\ScheduleAPI\AppointmentInterface\bin\Google.Api.Gax.dll
+C:\Git\C#\ScheduleAPI\AppointmentInterface\bin\System.Interactive.Async.dll
+C:\Git\C#\ScheduleAPI\AppointmentInterface\bin\Google.Api.Gax.pdb
+C:\Git\C#\ScheduleAPI\AppointmentInterface\bin\Google.Api.Gax.xml
+C:\Git\C#\ScheduleAPI\AppointmentInterface\bin\System.Interactive.Async.xml

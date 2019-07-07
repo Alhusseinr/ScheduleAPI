@@ -73,7 +73,7 @@ namespace AppointmentInterface.Controllers
             StringContent content = new StringContent(JsonConvert.SerializeObject(""));
 
             var apiCallService = new WebApiCallService<List<appointment>>();
-            var appointments = apiCallService.ApiGetRequest("Appointments/GetAllAppointments",responseMessage).Result;
+            var appointments = apiCallService.ApiGetRequest("Appointments/GetAllAppointments",responseMessage).Result; 
 
             return View(appointments);
         }

@@ -104,3 +104,8 @@ C:\Git\C#\ScheduleAPI\ScheduleAPI\bin\EntityFramework.SqlServer.dll
 C:\Git\C#\ScheduleAPI\ScheduleAPI\bin\EntityFramework.SqlServer.xml
 C:\Git\C#\ScheduleAPI\ScheduleAPI\bin\Dapper.dll
 C:\Git\C#\ScheduleAPI\ScheduleAPI\bin\Dapper.xml
+C:\Git\C#\ScheduleAPI\ScheduleAPI\bin\Google.Api.Gax.dll
+C:\Git\C#\ScheduleAPI\ScheduleAPI\bin\System.Interactive.Async.dll
+C:\Git\C#\ScheduleAPI\ScheduleAPI\bin\Google.Api.Gax.pdb
+C:\Git\C#\ScheduleAPI\ScheduleAPI\bin\Google.Api.Gax.xml
+C:\Git\C#\ScheduleAPI\ScheduleAPI\bin\System.Interactive.Async.xml

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="appointmentsModelStoreContainer" CdmEntityContainer="appointmentsEntities">
+    <EntitySetMapping Name="appointments">
+      <EntityTypeMapping TypeName="appointmentsModel.appointment">
+        <MappingFragment StoreEntitySet="appointment">
+          <ScalarProperty Name="appointmentId" ColumnName="appointmentId" />
+          <ScalarProperty Name="appointmentStartDate" ColumnName="appointmentStartDate" />
+          <ScalarProperty Name="appointmentEndDate" ColumnName="appointmentEndDate" />
+          <ScalarProperty Name="memo" ColumnName="memo" />
+          <ScalarProperty Name="cancelled" ColumnName="cancelled" />
+          <ScalarProperty Name="confirmed" ColumnName="confirmed" />
+          <ScalarProperty Name="completed" ColumnName="completed" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="users">
+      <EntityTypeMapping TypeName="appointmentsModel.user">
+        <MappingFragment StoreEntitySet="users">
+          <ScalarProperty Name="userId" ColumnName="userId" />
+          <ScalarProperty Name="fname" ColumnName="fname" />
+          <ScalarProperty Name="lname" ColumnName="lname" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="token" ColumnName="token" />
+          <ScalarProperty Name="token_expire" ColumnName="token_expire" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
